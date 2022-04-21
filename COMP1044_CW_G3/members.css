@@ -1,0 +1,190 @@
+/*Members*/
+.members-section{
+  position: relative;
+  background: #1d1b31;
+  min-height: 100vh;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  padding-bottom: 80px;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.sidebar.open ~ .members-section{
+  left: 250px;
+  width: calc(100% - 250px);
+}
+
+.members-section .main{
+  display: inline-block;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 500;
+  margin: 18px
+}
+
+.members-section .main p{
+  display: inline-block;
+  color: #c9c7de;
+  font-size: 33px;
+  font-weight: 500;
+  margin: 18px
+}
+
+/*Members Table*/
+.memberstable {
+  border-collapse: collapse;
+  font-size: 18px;
+  margin-left: 20px;
+  table-layout: auto;
+}
+
+.memberstable th,.memberstable td{
+  padding: 7.5px;
+  width:0.1%;
+  max-width:80px;
+  overflow-wrap: break-word;
+  border: 1px solid black;
+}
+
+.memberstable th {
+  background-color: #c9c7de;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.memberstable tbody tr {
+  border-bottom: 1px solid #262240;
+}
+
+.memberstable tbody tr:nth-of-type(even) {
+  background-color: #2f2b4f;
+}
+
+.memberstable tbody tr:last-of-type {
+  border-bottom: 2px solid #c9c7de;
+}
+
+.memberstable tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.tableops{
+  font-size: 17px;
+  padding: 5px;
+  background-color:#c9c7de;
+  color:#ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/*Top Buttons*/
+.link{
+  font-size: 20px;
+  padding:10px;
+  padding-left:23px;
+  padding-right:23px;
+  background-color:#c9c7de;
+  color:#ffffff;
+  border: none;
+  margin-left: 20px;
+}
+.form-control{
+  font-size: 11px;
+}
+
+.link:hover, .tableops:hover, .displayall:hover{
+  background-color:#d7d5eb;
+}
+
+.search-bar{
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.form-control{
+font-size: 16px;
+padding: 5px;
+}
+
+/*Buttons*/
+.button{
+border-radius: 1vh;
+margin-bottom: 10px;
+font-size: 16px;
+color: black; 
+width: 70px; 
+height: 30px;
+opacity: 0.7;
+cursor: pointer;
+}
+
+.button:hover{
+opacity: 1.0;
+}
+
+.add-button{
+height: 40px;
+width: 120px;
+border-radius: 1vh;
+margin-bottom: 10px;
+margin-left: 20px;
+font-size: 16px;
+color: black; 
+opacity: 0.7;
+cursor: pointer;
+}
+
+.add-button:hover{
+opacity: 1.0;
+}
+
+.delete{
+height: 25px;
+width: 25px;
+opacity: 0.7;
+}
+
+.delete:hover{
+cursor: pointer;
+opacity: 1;
+}
+
+.delete-button{
+border-radius: 1vh;
+margin-bottom: 10px;
+font-size: 16px;
+color: black; 
+width: 60px; 
+height: 25px;
+opacity: 0.7;
+cursor: pointer;
+}
+
+.delete-button:hover{
+opacity: 1.0;
+}
+
+/*Type Table*/
+.typetable{
+margin-top: 30px;
+margin-left: 20px;
+background-color:#8c88be;
+width: 250px;
+padding: 10px;
+
+}
+
+.typetable td{
+font-size: 18px;
+}
+
+.typetable th{
+font-size: 20px;
+}
