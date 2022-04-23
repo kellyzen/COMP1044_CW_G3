@@ -1,9 +1,6 @@
 # COMP1044_CW_G3
 ## IMPORTANT STEPS TO ACCESS LIBRARY
 
-*(MAKE SURE THAT EVERY FILE HAS BEEN DOWNLOADED BEFORE PROCEEDING WITH THE FOLLOWING STEPS)*
-
-
 ### Installing XAMPP (please proceed to the next section if you had done this)
 
   1. Download XAMPP from https://www.apachefriends.org/index.html
@@ -13,7 +10,7 @@
 
 ### Opening Apache and MySQL on XAMPP
 
-  3. Open up the search engine.
+  3. Open the search engine.
 
   4. Type in "XAMPP".
 
@@ -23,24 +20,28 @@
 
   7. Click on admin beside the "MySQL" prompt and a webpage should load in.
 
+### Downloading files
+
+  8. Download _ALL_ the files and place the "COMP1044_CW_G3" folder in "C:\xampp\htdocs".
+
 ### Creating the librarydb database
 
-  8. Click "New" on the sidebar menu.
+  9. Click "New" on the sidebar menu in MySQL.
 
-  9. Create a new database named "librarydb".
+  10. Create a new database named "librarydb".
 
-  10. Import the "librarydb.sql" from the "Database" folder in the "Import" section.
+  11. Import the "librarydb.sql" from the "Database" folder in the "Import" section.
 
-  11. Refresh the page and 6 new tables will have been created under the database "librarydb".
+  12. Refresh the page and 6 new tables will have been created under the database "librarydb".
 
 
 ### Opening up the library website
 
-  12. Open up your preferred web browser.
+  13. Open your preferred web browser.
 
-  13. Paste "localhost/COMP1044_CW_G3" on the search bar and enter.
+  14. Paste "localhost/COMP1044_CW_G3" on the search bar and click enter.
 
-  14. Navigate to the user table in the librarydb database and login to the website using the selected user credentials to access the library.
+  15. Navigate to the user table in the librarydb database and login to the website using the selected user credentials to access the library.
 
 ## FEATURES
 ### Login/Logout
